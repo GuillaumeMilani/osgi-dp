@@ -326,7 +326,7 @@ public abstract class AbstractDpMojo extends AbstractMojo {
         if (version.endsWith("-SNAPSHOT")) {
             version = version.replaceAll("-SNAPSHOT$", "." + TIMESTAMP_FORMAT.format(this.session.getStartTime()));
         }
-        if (version.matches(".*-BETA\\d?")) {
+        if (version.matches(".*-BETA\\d+")) {
             version = version.replace("-", ".");
         }
 
