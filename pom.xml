@@ -3,7 +3,7 @@
 
 	<groupId>de.dentrassi.maven</groupId>
 	<artifactId>osgi-dp</artifactId>
-	<version>0.4.1-STEMYS2</version>
+	<version>0.4.1-STEMYS</version>
 
 	<packaging>maven-plugin</packaging>
 
